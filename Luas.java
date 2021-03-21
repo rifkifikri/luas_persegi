@@ -2,6 +2,10 @@ package luas_persegi_panjang;
 import java.util.Scanner;
 
 public class Luas {
+	//constuctor
+	public Luas(){
+		setLuas(0, 0);
+	}
 	//class method
 	public int setLuas(int panjang, int lebar) {
 		int hasil;
